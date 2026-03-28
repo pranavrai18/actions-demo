@@ -14,4 +14,4 @@ jobs:
       - name: show today's date
         run: echo Today is $(date)
       - name: show which folder we are in
-        run: cd
+        run: pwd
